@@ -63,5 +63,3 @@ left join dept_emp de
 on e.emp_no=de.emp_no
 group by last_name
 order by frequency desc;
-
--- To do: edit QUICK_DBD_ERD / COMPLETE DATA ANALYSIS / CHECK WITH CHALLENGE REQUIREMENT
