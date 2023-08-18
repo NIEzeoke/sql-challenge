@@ -2,6 +2,8 @@
 
 After inspecting the CSV files containing 30000+ rows of company employee data in the "data" folder, I sketched an entity relationship diagram using quickdatabasediagrams.com.
 
+![image](https://github.com/NIEzeoke/sql-challenge/assets/127510090/abeda82e-88f0-4e90-a5c3-a9549a888f6f)
+
 Next was the creation of a table schema (Data Engineering.sql) for each of the 6 files according to the above diagram, followed by impoorting the csv files into the corresponding tables. 
 
 Finally, with tables that were properly modeled/populated,  I performed a series of queries in order to gain insight on employees that worked between 1980 and 1990. The first of which can be observed below, while the remainder are in the "data_analysis_screen_captures" folder.
